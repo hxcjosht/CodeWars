@@ -1,0 +1,9 @@
+--Simple Multiply Script in Lua. CodeWars Basic Entrance Exam
+
+local kata = {}
+
+function kata.multiply(a, b)
+  return a * b
+end
+
+return kata
