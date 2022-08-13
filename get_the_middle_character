@@ -1,0 +1,36 @@
+#include <string>
+#include<cmath>
+using namespace std;
+
+std::string get_middle(std::string input) 
+{
+  
+  string one;
+  string two;
+  string three;
+ int size= input.length();
+ int math= floor(size/2);
+  
+   
+  if(math>0){
+      if (size% 2==0){
+         one = input.at(math);
+         two = input.at(math-1);
+         three= two+one;
+           return three;
+             }else{
+              one = input.at(math);
+        
+              return one;
+     
+                  }
+            }else{
+    
+    one = input.at(0);
+              return one;
+    
+  }
+   
+   
+   return 0;
+}
