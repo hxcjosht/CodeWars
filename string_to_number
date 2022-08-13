@@ -1,0 +1,6 @@
+#include <string>
+using namespace std;
+int string_to_number(const std::string& s) {
+  int number= stoi(s);
+    return number;
+}
